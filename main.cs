@@ -2,7 +2,7 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    Console.WriteLine ("Informe um numero: ");
+    Console.WriteLine ("Me informe um numero: ");
     int n = int.Parse(Console.ReadLine());
     
     int f = fatorial(n);
